@@ -1,0 +1,232 @@
+.feature-set-1{
+    background-color: red;
+    width: 500px;
+    height: 250px;
+    border-style: solid;
+    border-color: black;
+
+
+}
+
+.fs-2-container{
+    height: 100vh;
+}
+
+.fs-2-top{
+    height: 50%;
+    background-color: yellow;
+}
+.fs-2-mid{
+    height: 25%;
+    background-color: blue;
+
+}
+.fs-2-bot{
+    height: 25%;
+    background-color: red;
+
+}
+
+.fs-3-container{
+    display: flex;
+    height: 50vh;
+}
+.fs-3-left{
+    width: 100%;
+    background-color: green;
+}
+.fs-3-mid{
+    width: 100%;
+    background-color: white;
+}
+.fs-3-right{
+    width: 100%;
+    background-color: orange;
+}
+
+.fs-4-container{
+    font-size: 0;
+    height: 50vh;
+    width: 100vh;
+}
+.fs-4-left{
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    background-color: blue;
+}
+.fs-4-mid{
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    background-color: white;
+}
+.fs-4-right{
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    background-color: red;
+}
+
+.fs-5-container{
+    font-size: 0;
+    height: 50vh;
+    width: 100vh;
+    display: float;
+}
+.fs-5-right-container{
+    display: inline-block;
+    height: 50vh;
+    width: 50vh;
+}
+.fs-5-left{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: green;
+}
+.fs-5-top{
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+}
+.fs-5-bot{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}
+
+.fs-6-container{
+    background-color: blue;
+    font-size: 0;
+    height: 50vw;
+    width: 100vw;
+    position: relative;
+}
+.fs-6-vert{
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    background-color: yellow;
+    left: 40%;
+    transform: translateX(-100%);
+}
+.fs-6-horz{
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    background-color: yellow;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fs-7-container{
+    background-color: red;
+    font-size: 0;
+    height: 50vw;
+    width: 50vw;
+    position: relative;
+}
+.fs-7-vert{
+    height: 50%;
+    width: 15%;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+}
+.fs-7-horz{
+    height: 15%;
+    width: 50%;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%);
+}
+
+.fs-8-container{
+    background-color: darkred;
+    font-size: 0;
+    height: 50vw;
+    width: 100vw;
+
+}
+.fs-8-flag-container{
+    background-color: white;
+    font-size: 0;
+    height: 25vw;
+    width: 25vw;
+    position: relative;
+}
+.fs-8-vert{
+    height: 50%;
+    width: 15%;
+    position: absolute;
+    background-color: darkred;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+}
+.fs-8-horz{
+    height: 15%;
+    width: 50%;
+    position: absolute;
+    background-color: darkred;
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%);
+}
+
+.fs-9-container{
+    display: flex;
+    height: 75vw;
+    width: 100vw;
+    position: relative;
+}
+
+.fs-9-circle{
+    background-color: red;
+    border-radius: 50%;
+    margin:auto;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    height: 35%;
+    width: 35%;
+    transform: translate(-50%,-50%);
+}
+
+.fs-10-container{
+    background-color: red;
+    height: 50vw;
+    width: 75vw;
+    font-size: 0;
+}
+.fs-10-container > div{
+    height: 100%;
+    display: inline-block;
+
+}
+.fs-10-left, .fs-10-right{
+    width: 20%;
+}
+.fs-10-mid{
+    position: relative;
+    background-color: white;
+    width: 60%;
+    
+}
+.fs-10-mid::before{
+    content: '';
+    right: 10%;
+    top: 10%;
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    background-image: url("./assets/images/canada_logo.png");
+    transform: rotateZ(28deg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
