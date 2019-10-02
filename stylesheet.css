@@ -7,6 +7,15 @@
 
 
 }
+.feature-set-1-bot{
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    border-style: solid;
+    border-color: black;
+
+
+}
 
 .fs-2-container{
     height: 100vh;
@@ -230,3 +239,5 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+
